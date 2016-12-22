@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">-->
+    <link rel="stylesheet" href="../static/w3.css"
+</head>
+<body>
+    <div class="w3-container w3-center w3-grey ">
+        <h1>Resign is funnnnn</h1>
+
+    </div>
+    <form class= "w3-form w3-container" method ="post" action="{{ url_for("register") }}">
+        <div class ="w3-container w3-margin-bottom ">
+            <label for="Name">Email</label><br>
+            <input type="text" name="email"><br><br>
+            <label for="password" >Password</label><br>
+            <input type="password" name="password"><br><br>
+            <input type="submit"><br>
+        </div>
+    </form>
+
+</body>
+</html>
